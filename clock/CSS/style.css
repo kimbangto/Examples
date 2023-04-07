@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+* {
+    /* background-color: black; */
+    color: white;
+    font-family: 'TheJamsil5Bold';
+    font-size: 25px;
+    margin: 15px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/clock/IMG/backgroundIMG.jpg);
+}
+
+#background {
+    background-color: black;
+    opacity: 0.6;
+}
+
+.container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 100px;
+}
+
+button {
+    border: 1px solid white;
+}
